@@ -39,8 +39,8 @@ class Login extends Component{
             return(
                 <div>
                     <div className='App-content' style={this.divStyle}>
-                        <p>Enter your GUID (Ex: abcdXXXX)</p>
-                        <p className='App-hint'>(This is the user id for logging into laptop)</p>
+                        <p>Enter your EmailID (Ex: abc@xyz.com)</p>
+                        <p className='App-hint'>(This is the user id for logging into email account.)</p>
                         <Input prefix={<UserOutlined />}></Input>
                         <br/>
                     </div>
