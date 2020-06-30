@@ -64,31 +64,33 @@ class Login extends Component{
         }
 
 
-        // return(
-        //     <div className='App-content'>
-        //         {showGUIDInput && 
-        //             <div style={{minHeight: '403px'}}>
-        //                 <p>Enter your email (Ex: abc@xyz.com)</p>
-        //                 <p className='App-hint'>(This is the user id for logging into email account.)</p>
-        //                 <Input prefix={<UserOutlined />}></Input>
-        //                 <br/><br/>
-        //                 <Button type='primary' size='middle' onClick = {this.nextBtnClicked} >Next</Button>
-        //             </div>
-        //         }
-        //         {!showGUIDInput &&
-        //         <div style={{minHeight: '403px'}}>
-        //             <p>Enter your password</p>
-        //             <p className='App-hint'>(This is the password for logging into email account.)</p>
-        //             <Input.Password placeholder="Input password" /> 
-        //             <br/><br/>
-        //             <div>
-        //                 <Button type='default' size='middle' onClick = {this.backBtnClicked} >Back</Button>
-        //                 <Button type='primary' size='middle' onClick = {this.loginBtnClicked} >Login</Button>
-        //             </div>
-        //         </div>
-        //         }
-        //     </div>
-        // );
+        /*
+        return(
+            <div className='App-content'>
+                {showGUIDInput && 
+                    <div style={{minHeight: '403px'}}>
+                        <p>Enter your email (Ex: abc@xyz.com)</p>
+                        <p className='App-hint'>(This is the user id for logging into email account.)</p>
+                        <Input prefix={<UserOutlined />}></Input>
+                        <br/><br/>
+                        <Button type='primary' size='middle' onClick = {this.nextBtnClicked} >Next</Button>
+                    </div>
+                }
+                {!showGUIDInput &&
+                <div style={{minHeight: '403px'}}>
+                    <p>Enter your password</p>
+                    <p className='App-hint'>(This is the password for logging into email account.)</p>
+                    <Input.Password placeholder="Input password" /> 
+                    <br/><br/>
+                    <div>
+                        <Button type='default' size='middle' onClick = {this.backBtnClicked} >Back</Button>
+                        <Button type='primary' size='middle' onClick = {this.loginBtnClicked} >Login</Button>
+                    </div>
+                </div>
+                }
+            </div>
+        );
+        */
     }
 }
 
